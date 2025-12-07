@@ -1,13 +1,16 @@
-# RoadMap-20-Automation-Mastery
-20 real-world automation + analytics projects (Python, SQL, CRM, Power BI, Ops workflows)
+# RoadMap-20 Automation Mastery
 
+A collection of 20 real-world automation projects covering:
 
-Technologies:
-• Python (pandas, ETL, reporting automation)
-• SQL (data modeling, extraction)
-• CRM automation (HubSpot / custom)
-• Power BI dashboards
-• Excel & operational analytics
-• Workflow design & business systems
+- Business process automation
+- AI workflow engineering
+- Telegram bots & APIs
+- Web automation
+- Data engineering basics
+- LLM-based automation systems
 
-Projects will be added progressively over the next 12 weeks.
+Each project includes:
+- Architecture documentation
+- Source code
+- Dataset samples
+- Test scenarios
