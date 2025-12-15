@@ -1,13 +1,19 @@
-from utils import load_template
-from config import settings
+from datetime import datetime
 
-def generate_invoice():
-    print("Starting Invoice Automation System...")
-    template = load_template()
-    print(f"Template loaded: {template}")
-    print(f"Customer name: {settings['customer_name']}")
-    print("Invoice generation complete (mock).")
+def generate_invoice(customer_name, total_amount):
+    invoice_id = datetime.now().strftime("%Y%m%d%H%M%S")
+    
+    invoice_data = {
+        "invoice_id": invoice_id,
+        "customer": customer_name,
+        "amount": total_amount,
+        "date": datetime.now().strftime("%Y-%m-%d")
+    }
+
+    return invoice_data
+
 
 if __name__ == "__main__":
-    generate_invoice()
-
+    invoice = generate_invoice("Test Customer", 12500000)
+    print("Invoice Generated:")
+    print(invoice)
